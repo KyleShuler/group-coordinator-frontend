@@ -1,4 +1,14 @@
-# Welcome to your Expo app 👋
+
+<Button title="Add Test Availability" onPress={handleAdd} />
+
+ {/* Add Event Button */}
+      <Button
+        title="Add Event"
+        onPress={() => router.push("/(tabs)/add")}
+      />
+
+      npx expo start --tunnel
+
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
